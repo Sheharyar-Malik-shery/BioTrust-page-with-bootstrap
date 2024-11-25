@@ -1,0 +1,255 @@
+@media (min-width: 992px) {
+    /* Styles for large screens (992px and above) */
+    .header-right-items{
+      font-size: large;
+      color: white;
+    }
+    .crousel-display{
+      display: none !important;
+    }
+  }
+  @media (max-width: 992px) {
+    /* Styles for large screens (992px and below) */
+    .header-right-items{
+      font-size: small;
+      color: white;
+    }
+    .hero-img{
+      display: none;
+    }
+    .card-alignment{
+      display: flex;
+    }
+    .card-info-p2{
+      padding: 1%;
+    }
+    .card-info-p1{
+      padding: 1%;
+    }
+  }
+  @media (max-width: 992px) {
+    /* Styles for small screens (992px and below) */
+    .d-flex .justify-content-center .card-alignment.card-alignment{
+      display: block;
+      /* justify-content: space-between; */
+    }
+    .single-card-widt{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .card-custom-border{
+        margin: 1%;
+    }
+    .card-lg-display{
+        width: 35%;
+        text-align: left;
+    }
+    .card-lg-btn{
+        height: 10%;
+        width: 35%;
+        padding: 5px 5px !important;
+    }
+    .card-lg-heading-size{
+        font-size: 1.5em;
+        margin: 0;
+    }
+    .card-lg-weeks-size{
+        font-size: 1em !important;
+        
+    }
+    .card-lg-discount-size{
+        font-size: 1.2em;
+        margin: 0%;
+    }
+    .card-lg-price-size{
+        font-size: 1.2em !important;
+    }
+    .card-lg-save-size{
+        font-size: 1em !important;
+    }
+    .card-lg-benefit-size{
+        font-size: 0.8em;
+    }
+    .d-flex.card-md-Crousel{
+      display: none !important;
+    }
+    .card-image{
+      display: block !important;
+      /* object-fit: cover; */
+  }
+  .card-md-AdvertismentImage{
+    width: 50% !important;
+  }
+  
+  .revies-parent-left-1stpgraph{
+    font-size: 2rem;
+
+   }
+   .revies-parent-left-2stpgraph{
+     color: #2BB34D;
+    text-align: right;
+    font-size: 1em;
+   }
+   .CUSTOMER-SUPPORT-styling{
+    display: none;
+   }
+   .d-none.custom-dropdown-toggle.CUSTOMER-SUPPORT-no-dropdown{
+    display: block !important;
+   }
+   .d-none.custom-dropdown-toggle{
+    display: block !important;
+    margin-right: 13px;
+   }
+   .my-account-lg{
+    display: none;
+   }
+   .header-right-items{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+   }
+   /* .nav-bar-one-sm{
+    border: 2px solid forestgreen;
+ 
+   } */
+  }
+
+  @media (min-width: 988px) {
+    /* Styles for large screens (992px and above) */
+    .d-flex .justify-content-center .card-alignment.card-alignment{
+      display: flex;
+    }
+    
+  }
+  @media (min-width:988px){
+    .card-image{
+      display: none;
+      /* object-fit: cover; */
+  }
+
+  }
+  
+  @media (max-width:768px) {
+    /* Styles for large screens (768px and below) */
+    .d-flex.justify-content-between.align-items-start.card-md-alignmnet{
+     display: block !important;
+    }
+    .card-md-Crousel{
+        display: none !important;
+    }
+    .card-md-AdvertismentImage{
+        width: 100% !important;
+    }
+    .cards-md-full-width{
+        width: 100% !important;
+    }
+    .card-image{
+        object-fit: contain;
+        display: block !important;
+        /* object-fit: cover; */
+    }
+    .hero-bottom-right-parent{
+      justify-content: center;
+      width: 100%;
+    }
+    .hero-bottom-right{
+      width: 70%;
+    }
+    .card-md-AdvertismentImage{
+      width: 70vw !important;
+      justify-content: center;
+      margin: auto;
+    }
+    .d-flex.revies-parent{
+      display: block !important;
+     
+    }
+    .revies-parent-left{
+      width: 100%;
+      border-bottom: 10px solid forestgreen !important;
+      border-right: none !important;
+      padding-top: 5%;
+      padding-bottom: 5%;    
+    }
+    .revies-parent-left-1stpgraph{
+      text-align: center;
+      font-size: 2.5em;
+    }
+    .revies-parent-left-2stpgraph{
+      text-align: center;
+    }
+
+    .revies-parent-right{
+      width: 100%;
+      padding: 4.2% 0%;
+      border-right: none !important;
+    }
+  }
+  @media (max-width: 764px) {
+    /* Styles for large screens (992px and above) */
+    .header-righ-my-cart{
+      display: none;
+    }
+    .d-flex.ProductClaim-1nd-parnet{
+      flex-wrap: wrap !important;
+      display: block;
+      gap: 0 !important;
+    }
+    .product-claim {
+      position: static;
+      padding: 8%;
+    }
+    .ProductClaim-2nd-parnet{
+      width: 50%;
+      position: static;
+      text-align: center;
+    }
+    .product-claim-img{
+      /* top: 30px; */
+      transform: translate(0%, 0%); 
+      position: static;
+      margin-bottom: 2%;
+    }
+    .product-claim-text{
+      font-size: 1em;
+      font-weight: bold;
+    }
+  }
+  @media (min-width: 662px) {
+    /* Styles for large screens (992px and above) */
+    .header-right-items{
+      font-size: 1em;
+      color: white;
+    }
+
+  }
+
+@media (max-width: 610px) {
+  .card-alignment{
+    width: 100%;
+  }
+  .hero-bottom-right{
+    width: 100%;
+    border: 2px solid rgb(136, 231, 12);
+   
+   }
+   
+}
+
+  @media (max-width: 420px) {
+    /* Styles for large screens (992px and above) */
+    .header-right-items{
+      font-size: 10px;
+      color: white;
+    }
+  }
+
+ 
+ 
+
+ 
+
+
+  
